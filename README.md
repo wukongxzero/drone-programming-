@@ -18,3 +18,9 @@ books that are going to be used:
 4. probability robotics by sebastian thrun which is a great book to start learning robotics. 
 
 all of which you can find in this repository,.
+
+okay, after a lot of digginig in, time to get started with PX4 Development as this will form the basis of every autonomy project that will be developed in future or now,
+
+PX4 DEV,
+
+ROS2 DEVELOPMENT:
