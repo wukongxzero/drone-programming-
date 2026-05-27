@@ -1,26 +1,17 @@
-# drone-programming-'
+# Drone Programming
 
-This is an autonomous drone development project started on 14/2/23.
+Reference repository for autonomous drone development — books and foundational material that fed into the PX4/MAVSDK work.
 
-The goal is to develop drones to be used to map/path planned for construction/agricultural/military and life-saving purposes. working on a new startup aerial-monkeys//.
+## Contents
 
-step 1: learn drone-development and list out sources that  are valuable in this industry..
- 
-okay, if found a few books that i will start to implement and learn from and teach in this specific open git hub repo:
+- **Probabilistic Robotics** (Thrun, Burgard, Fox) — the theoretical foundation for SLAM, particle filters, Kalman filters, and probabilistic motion/sensor models used across all navigation projects
+- **ROS Robotics Projects** (Lentin Joseph) — practical ROS project walkthroughs
+- **Building Smart Drones with ESP8266 and Arduino** (Towaha) — embedded drone hardware foundations
 
-books that are going to be used:
-1. Ros robotic projects by lentil joseph: 
+## Applied work from this repo
 
-2. Building Smart Drones with ESP8266 and Arduino: Build exciting drones by leveraging the capabilities of Arduino and ESP8266 by syed omar faruk
+The PX4 SITL autonomous drone work (spiral trajectory, ArUco precision landing, waypoint navigation) lives in [`ros2-px4-spiral-aruco-waypoint-method`](../ros2-px4-spiral-aruco-waypoint-method/).
 
-3. algorithms for robots motion and planning by jean-paul launmond for path planning.
+## Tech stack
 
-4. probability robotics by sebastian thrun which is a great book to start learning robotics. 
-
-all of which you can find in this repository,.
-
-okay, after a lot of digginig in, time to get started with PX4 Development as this will form the basis of every autonomy project that will be developed in future or now,
-
-PX4 DEV,
-
-ROS2 DEVELOPMENT:
+PX4 · MAVSDK · ROS 2 · Python · asyncio
